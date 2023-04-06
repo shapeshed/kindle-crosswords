@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-
+#!/usr/bin/env sh
+# shellcheck disable=SC3040
 set -o pipefail
 DATE=$(date +%Y%m%d)
 URL="https://crosswords-static.guim.co.uk"
@@ -9,8 +9,6 @@ CRYPTIC="gdn.cryptic.$DATE.pdf"
 CROPCRYPTIC="gdn.cryptic.$DATE-crop.pdf"
 FROM="your@fromaddress.com"
 TO="your@kindleaddress.com"
-
-# Send to Kindle
 
 # Quick crosswords published Mon-Sat
 if [ "$(date +%u)" -le 6 ]; then
