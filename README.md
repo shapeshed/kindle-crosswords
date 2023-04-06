@@ -19,7 +19,7 @@ to Email][4] feature.
 
 ## Installation
 
-- Copy `remarkable-crossword.sh` to `/usr/local/bin/` and make it executable.
+- Copy `kindle-crossword.sh` to `/usr/local/bin/` and make it executable.
 - Install the systemd service and timer scripts.
 
 ## Configuration
