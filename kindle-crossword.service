@@ -1,0 +1,11 @@
+[Unit]
+Description=Script to send crosswords to kindle scribe
+After=network.target network-online.target dbus.socket
+Wants=kindle-crossword.timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/kindle-crosswords.sh
+
+[Install]
+WantedBy=default.target
