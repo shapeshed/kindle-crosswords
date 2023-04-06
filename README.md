@@ -1,5 +1,7 @@
 # Kindle Crosswords
 
+[![shellcheck](https://github.com/shapeshed/kindle-crosswords/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/shapeshed/kindle-crosswords/actions/workflows/shellcheck.yml)
+
 Get crosswords freshly delivered to your [Amazon Scribe][1] every morning.
 
 Currently supported
